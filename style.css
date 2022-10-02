@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: white;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-width: 100vw;
+  background-color: #40c75f;
+background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+}
+
+/* Container */
+.container {
+  
+  margin: 4rem auto 7rem;
+  text-align: center;
+}
+
+.heading {
+  background-color: blue ;
+  font-family: cursive;
+  font: outline;
+  border-radius: 12px;
+}
+
+.description {
+  font-size: larger;
+  margin: 1rem;
+  font-family: cursive;
+  font: outline;
+}
+
+.input-label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+  font-family: cursive;
+  font: outline;
+}
+
+.input {
+  font-size: 14px;
+  outline: rgb(0, 0, 0);
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid blacks);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+  font-family: cursive;
+  font: outline;
+}
+
+#check-button {
+  background: var(--primary-color);
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: rgb(0, 0, 0);
+  margin: auto;
+  display: block;
+  font-family: cursive;
+  font: outline;
+}
+
+#error-message {
+  display: block;
+  font-size: larger;
+  margin: 1rem 0 0;
+  font-family: cursive;
+  font: outline;
+}
+
+/* Table */
+.change-table {
+  width: 50%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+  font-family: cursive;
+  font: outline;
+}
+
+.change-table caption {
+  margin: 1rem auto;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+th,
+td {
+  border: 2px solid black;
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+  width: 40px;
+  padding: 0.2rem;
+}
